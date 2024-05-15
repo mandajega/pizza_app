@@ -19,5 +19,6 @@ class AuthenticationState extends Equatable {
 
   const AuthenticationState,unauthenticated() :
     this._(status: AuthenticationStatus.unauthenticated);
+    
   List<Object> get props => [status, user];
 }
